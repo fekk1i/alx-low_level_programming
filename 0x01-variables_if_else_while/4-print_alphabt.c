@@ -9,7 +9,6 @@
 int main(void)
 {
 	char letter;
-	char caps;
 
 	for (letter = 'a' ; letter <= 'z'; letter++)
 	{
