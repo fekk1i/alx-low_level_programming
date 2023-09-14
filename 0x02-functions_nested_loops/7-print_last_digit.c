@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _abs - Entry point
+ * print_last_digit - Entry point
  *
  * @n: value
  *
@@ -21,7 +21,7 @@ int print_last_digit(int n)
 
 	last_digit = n % 10;
 
-	_putchar('0' + last_digit);
+	putchar('0' + last_digit);
 
 	return (last_digit);
 }
