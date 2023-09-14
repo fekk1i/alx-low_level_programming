@@ -21,13 +21,12 @@ void times_table(void)
 			result = i * j;
 			if (j == 0)
 			{
-				printf("0");
+				printf("%2d", result);
 			}
 			else
 			{
-				printf(", ");
+				printf(", %2d", result);
 			}
-			printf("%d", result);
 		}
 		printf("\n");
 	}
