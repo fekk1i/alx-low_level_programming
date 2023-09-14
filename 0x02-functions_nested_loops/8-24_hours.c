@@ -21,10 +21,10 @@ void jack_bauer(void)
 		{
 			char hour_str[3], minute_str[3];
 
-			snprintf(hour_str, sizeof(hour_str), "%02d", hour;
-			snprintf(minute_str, sizeof(minute_str), "%02d", minute;
+			snprintf(hour_str, sizeof(hour_str), "%02d", hour);
+			snprintf(minute_str, sizeof(minute_str), "%02d", minute);
 
-			printf("%s:%s", hour_str, minute_str);
+			printf("%s:%s\n", hour_str, minute_str);
 		}
 	}
 
