@@ -17,4 +17,6 @@ int add(int a, int b)
 
 	c = a + b;
 	printf("%d", c);
+
+	return (0);
 }
