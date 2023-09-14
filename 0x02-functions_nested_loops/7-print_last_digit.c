@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  */
 
-int last_digit
+int last_digit;
 
 int print_last_digit(int n)
 {
