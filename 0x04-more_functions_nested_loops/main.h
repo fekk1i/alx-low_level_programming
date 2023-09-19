@@ -12,6 +12,7 @@ void print_line (int n);
 void print_diagonal (int n);
 void print_square (int size);
 
+
 #define MAX_VALUE 100
 
 #endif
