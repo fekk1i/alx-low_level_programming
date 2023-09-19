@@ -9,8 +9,6 @@
  */
 int mul(int a, int b)
 {
-	int result = a * b;
-	printf("%d multiplied by %d is %d\n", a, b, result);
-	return (0);
+	return(a * b);
 
 }
