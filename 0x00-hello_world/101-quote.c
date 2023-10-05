@@ -11,5 +11,5 @@ int main(void)
 
 	fprintf(stderr, "%s\n", message);
 
-	return (0);
+	return (1);
 }
